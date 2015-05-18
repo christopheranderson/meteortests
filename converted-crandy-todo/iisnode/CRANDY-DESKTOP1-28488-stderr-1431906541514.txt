@@ -1,0 +1,11 @@
+Application has thrown an uncaught exception and is terminated:
+Error: MONGO_URL must be set in environment
+    at Object.<anonymous> (packages/mongo/remote_collection_driver.js:36:1)
+    at Object.defaultRemoteCollectionDriver (packages/underscore/underscore.js:750:1)
+    at new Mongo.Collection (packages/mongo/collection.js:98:1)
+    at app\crandy-todo.js:2:9
+    at app\crandy-todo.js:44:3
+    at C:\Users\Chris\workspace\converted-crandy-todo\programs\server\boot.js:222:10
+    at Array.forEach (native)
+    at Function._.each._.forEach (C:\Users\Chris\workspace\converted-crandy-todo\node_modules\underscore\underscore.js:79:11)
+    at C:\Users\Chris\workspace\converted-crandy-todo\programs\server\boot.js:117:5

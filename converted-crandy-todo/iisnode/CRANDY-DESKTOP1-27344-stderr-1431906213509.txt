@@ -1,0 +1,1 @@
+Meteor requires Node v0.10.36 or later.
